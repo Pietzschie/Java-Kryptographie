@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5431b6a-c94a-47a7-bf5e-6afc029cc76d" name="Default Changelist" comment="" />
+    <list default="true" id="f5431b6a-c94a-47a7-bf5e-6afc029cc76d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Aufgabe3/Aufg3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,27 +17,64 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WOI5S7eJ8QiXJVxUtkT6GMvcUS" />
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="E:/Android_SDK" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="S:/Workspaces/Intellij" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Aufg3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aufgabe3.Aufg3" />
+      <module name="Java-Kryptographie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aufgabe3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Aufg3" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="2" Folder0="C:\Users\lukas\Documents\german" Folder1="C:\Users\lukas\Documents\german" CustomDictionaries="2" CustomDictionary0="C:\Users\lukas\Documents\german\german.dic" CustomDictionary1="C:\Users\lukas\Documents\german\variants.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="TaskManager">
@@ -43,7 +84,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579014031077</updated>
+      <workItem from="1579099130170" duration="139000" />
+      <workItem from="1579099360354" duration="486000" />
+      <workItem from="1579099879468" duration="427000" />
+      <workItem from="1579100484305" duration="198000" />
+      <workItem from="1579100700783" duration="40000" />
+      <workItem from="1579100928933" duration="183000" />
+      <workItem from="1579101114747" duration="143000" />
+      <workItem from="1579101962342" duration="14000" />
+      <workItem from="1579102253199" duration="4348000" />
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
