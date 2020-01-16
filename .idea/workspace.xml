@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5431b6a-c94a-47a7-bf5e-6afc029cc76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Aufgabe3/Aufg3.java" afterDir="false" />
+    <list default="true" id="f5431b6a-c94a-47a7-bf5e-6afc029cc76d" name="Default Changelist" comment="encode/decode/generate key">
+      <change afterPath="$PROJECT_DIR$/src/Aufgabe3/Aufg3Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe3/Aufg3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe3/Aufg3.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Aufg3Test">
     <configuration name="Aufg3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aufgabe3.Aufg3" />
       <module name="Java-Kryptographie" />
@@ -70,8 +71,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Aufg3Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aufgabe3.Aufg3Test" />
+      <module name="Java-Kryptographie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aufgabe3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aufg3Test" />
         <item itemvalue="Application.Aufg3" />
       </list>
     </recent_temporary>
@@ -92,8 +107,17 @@
       <workItem from="1579100928933" duration="183000" />
       <workItem from="1579101114747" duration="143000" />
       <workItem from="1579101962342" duration="14000" />
-      <workItem from="1579102253199" duration="4348000" />
+      <workItem from="1579102253199" duration="6721000" />
+      <workItem from="1579166937634" duration="646000" />
     </task>
+    <task id="LOCAL-00001" summary="encode/decode/generate key">
+      <created>1579106892171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579106892171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,5 +132,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="encode/decode/generate key" />
+    <option name="LAST_COMMIT_MESSAGE" value="encode/decode/generate key" />
   </component>
 </project>

@@ -16,26 +16,34 @@ public class Aufg3 {
         this.rsaKeyPair = keyPairGen.generateKeyPair();
     }
 
-    public KeyPair getKeyPair() {
-        return rsaKeyPair;
+    public String getPublicKey() {
+        Base64.Encoder encoder = Base64.getEncoder();
+        return encoder.encodeToString(this.rsaKeyPair.getPublic().getEncoded());
     }
 
-    public String encrypt(String plainText) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException {
+    public String getPrivateKey() {
+        Base64.Encoder encoder = Base64.getEncoder();
+        return encoder.encodeToString(this.rsaKeyPair.getPrivate().getEncoded());
+    }
+
+    public byte[] encrypt(String plainText) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException {
         PublicKey publicKey = this.rsaKeyPair.getPublic();
         Cipher rsa = Cipher.getInstance("RSA");
         rsa.init(Cipher.ENCRYPT_MODE, publicKey);
         byte[] cipherText = rsa.doFinal(plainText.getBytes());
-        Base64.Encoder encoder = Base64.getEncoder();
-        return encoder.encodeToString(cipherText);
+       // Base64.Encoder encoder = Base64.getEncoder();
+       // return encoder.encodeToString(cipherText);
+        return cipherText;
     }
 
-    public String decrypt(String cipherText) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException {
+    public String decrypt(byte[] cipherText) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException {
         PrivateKey privateKey = this.rsaKeyPair.getPrivate();
         Cipher rsa = Cipher.getInstance("RSA");
         rsa.init(Cipher.DECRYPT_MODE, privateKey);
-        byte[] plainText = rsa.doFinal(cipherText.getBytes());
-        Base64.Encoder encoder = Base64.getEncoder();
-        return encoder.encodeToString(plainText);
+        return new String(rsa.doFinal(cipherText));
+        //decoder?
+       // Base64.Encoder encoder = Base64.getEncoder();
+       // return encoder.encodeToString(plainText);
 
     }
 }
