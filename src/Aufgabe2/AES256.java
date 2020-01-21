@@ -62,7 +62,7 @@ public class AES256 {
 	KeyGenerator keyGen = null;
 	try {
 	  keyGen = KeyGenerator.getInstance(ALGORITHM);
-	  keyGen.init(128);
+	  keyGen.init(256);
 	}catch (NoSuchAlgorithmException e) {
 	  e.printStackTrace();
 	}
