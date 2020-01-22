@@ -1,16 +1,12 @@
 package Aufgabe3;
-
-import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
-import javax.crypto.IllegalBlockSizeException;
-import javax.crypto.NoSuchPaddingException;
 import java.security.*;
 import java.util.Base64;
 
 public class Aufg3 {
     private KeyPair rsaKeyPair;
 
-    public void generateKeyPair(int keySize) throws NoSuchAlgorithmException {
+    public void generateKeyPair(int keySize) throws Exception {
         KeyPairGenerator keyPairGen = KeyPairGenerator.getInstance("RSA");
         keyPairGen.initialize(keySize);
         this.rsaKeyPair = keyPairGen.generateKeyPair();
@@ -26,24 +22,20 @@ public class Aufg3 {
         return encoder.encodeToString(this.rsaKeyPair.getPrivate().getEncoded());
     }
 
-    public byte[] encrypt(String plainText) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException {
+    public byte[] encrypt(String plainText) throws Exception {
         PublicKey publicKey = this.rsaKeyPair.getPublic();
         Cipher rsa = Cipher.getInstance("RSA");
         rsa.init(Cipher.ENCRYPT_MODE, publicKey);
         byte[] cipherText = rsa.doFinal(plainText.getBytes());
-       // Base64.Encoder encoder = Base64.getEncoder();
-       // return encoder.encodeToString(cipherText);
         return cipherText;
     }
 
-    public String decrypt(byte[] cipherText) throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException {
+    public String decrypt(byte[] cipherText) throws Exception {
         PrivateKey privateKey = this.rsaKeyPair.getPrivate();
         Cipher rsa = Cipher.getInstance("RSA");
         rsa.init(Cipher.DECRYPT_MODE, privateKey);
         return new String(rsa.doFinal(cipherText));
-        //decoder?
-       // Base64.Encoder encoder = Base64.getEncoder();
-       // return encoder.encodeToString(plainText);
+
 
     }
 }
