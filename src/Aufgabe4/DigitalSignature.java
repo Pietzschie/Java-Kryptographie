@@ -4,13 +4,15 @@ import java.security.*;
 import java.util.Base64;
 
 public class DigitalSignature {
-    private int keysize = 2000;
-    private PrivateKey privateKey;
-    private PublicKey publicKey;
-    private KeyPair rsaKeyPair;
-    private KeyPairGenerator keyPairGen;
+    private int keysize = 2000; //2000 is the keysize
+    private PrivateKey privateKey; //private key from KeyPair
+    private PublicKey publicKey; // public key form KeyPair
+    private KeyPair rsaKeyPair; //KeyPair
+    private KeyPairGenerator keyPairGen; //Generator to generate Keypair
 
-
+    //This Methode is used to genaerate a keypair, it throws some Exceptions
+    //such as "NoSuchAlgorihmenException"
+    //initilalize rsaKeyPAir, publickey, private Key
     public void generateKeyPair() throws Exception{
         keyPairGen = KeyPairGenerator.getInstance("RSA");
         keyPairGen.initialize(keysize);
