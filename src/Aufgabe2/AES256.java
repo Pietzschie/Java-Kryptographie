@@ -71,9 +71,7 @@ public class AES256 {
   }
   
   private byte[] getInitVector() {
-	//byte[] randomBytes = new byte[length];
-	//new SecureRandom().nextBytes(randomBytes);
-	byte[] randomBytes = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+	byte[] randomBytes = {9, 7, 3, 0, 2, 8, 5, 6, 0, 2, 7, 3, 1, 3, 1, 4};
 	
 	return randomBytes;
   }
