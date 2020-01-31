@@ -28,8 +28,8 @@ public class Test {
 	byte[] cByte = rsa.encrypt(pText);
 	dText = rsa.decrypt(cByte);
 	System.out.println(String.format("Private Key: %s\nPublic Key: %s", privK, pubK));
-	System.out.println(String.format("Plain Text: %s\nCipher Text: %s\nDecrypted Cipher Text: %s", pText, Base64.getEncoder().encodeToString(cByte),  dText));
- 
+	System.out.println(String.format("Plain Text: %s\nCipher Text: %s\nDecrypted Cipher Text: %s", pText, Base64.getEncoder().encodeToString(cByte), dText));
+	
 	System.out.println("\n\nAufgabe 4: Digitale Signatur");
 	DigitalSignature digSig = new DigitalSignature();
 	digSig.generateKeyPair();

@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.17668356" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8b83af29-7d64-4b91-8701-e51ed31c740e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Kryptographie/Aufgabe1/Hashfunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Kryptographie/Aufgabe1/Hashfunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Kryptographie/Aufgabe2/AES256.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Kryptographie/Aufgabe2/AES256.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Kryptographie/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Kryptographie/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe1/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe1/Aufgabe1Code.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe1/Aufgabe1Code.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Aufgabe1/Hashfunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe1/Hashfunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe1/MainBSP2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe2/AES256.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe2/AES256.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe3/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe3/Aufg3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe3/Aufg3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe3/Aufg3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe3/Aufg3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe4/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe4/DigitalSignature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe4/DigitalSignature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe4/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe4/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +61,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunManager" selected="Application.Test">
@@ -92,7 +109,7 @@
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="2" Folder0="C:\Users\lukas\Documents\german" Folder1="C:\Users\lukas\Documents\german" CustomDictionaries="2" CustomDictionary0="C:\Users\lukas\Documents\german\german.dic" CustomDictionary1="C:\Users\lukas\Documents\german\variants.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f5431b6a-c94a-47a7-bf5e-6afc029cc76d" name="Default Changelist" comment="" />
+      <changelist id="8b83af29-7d64-4b91-8701-e51ed31c740e" name="Default Changelist" comment="" />
       <created>1579014031077</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -107,6 +124,9 @@
       <workItem from="1579101962342" duration="14000" />
       <workItem from="1579102253199" duration="6721000" />
       <workItem from="1579166937634" duration="646000" />
+      <workItem from="1580465555071" duration="4272000" />
+      <workItem from="1580476101478" duration="795000" />
+      <workItem from="1580479147035" duration="266000" />
     </task>
     <task id="LOCAL-00001" summary="encode/decode/generate key">
       <created>1579106892171</created>
@@ -136,22 +156,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="encode/decode/generate key" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1827" height="161" key="GridCell.Tab.0.bottom" timestamp="1580413894688">
-      <screen x="72" y="0" width="1848" height="1080" />
+    <state x="555" y="369" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580479365025">
+      <screen x="78" y="0" width="1458" height="1024" />
     </state>
-    <state width="1827" height="161" key="GridCell.Tab.0.bottom/72.0.1848.1080@72.0.1848.1080" timestamp="1580413894688" />
-    <state width="1827" height="161" key="GridCell.Tab.0.center" timestamp="1580413894688">
-      <screen x="72" y="0" width="1848" height="1080" />
+    <state x="555" y="369" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/78.0.1458.1024@78.0.1458.1024" timestamp="1580479365025" />
+    <state width="1437" height="371" key="GridCell.Tab.0.bottom" timestamp="1580476902572">
+      <screen x="78" y="0" width="1458" height="1024" />
     </state>
-    <state width="1827" height="161" key="GridCell.Tab.0.center/72.0.1848.1080@72.0.1848.1080" timestamp="1580413894688" />
-    <state width="1827" height="161" key="GridCell.Tab.0.left" timestamp="1580413894688">
-      <screen x="72" y="0" width="1848" height="1080" />
+    <state width="1827" height="297" key="GridCell.Tab.0.bottom/72.0.1848.1080@72.0.1848.1080" timestamp="1580413957922" />
+    <state width="1437" height="371" key="GridCell.Tab.0.bottom/78.0.1458.1024@78.0.1458.1024" timestamp="1580476902572" />
+    <state width="1437" height="371" key="GridCell.Tab.0.center" timestamp="1580476902572">
+      <screen x="78" y="0" width="1458" height="1024" />
     </state>
-    <state width="1827" height="161" key="GridCell.Tab.0.left/72.0.1848.1080@72.0.1848.1080" timestamp="1580413894688" />
-    <state width="1827" height="161" key="GridCell.Tab.0.right" timestamp="1580413894688">
-      <screen x="72" y="0" width="1848" height="1080" />
+    <state width="1827" height="297" key="GridCell.Tab.0.center/72.0.1848.1080@72.0.1848.1080" timestamp="1580413957922" />
+    <state width="1437" height="371" key="GridCell.Tab.0.center/78.0.1458.1024@78.0.1458.1024" timestamp="1580476902572" />
+    <state width="1437" height="371" key="GridCell.Tab.0.left" timestamp="1580476902572">
+      <screen x="78" y="0" width="1458" height="1024" />
     </state>
-    <state width="1827" height="161" key="GridCell.Tab.0.right/72.0.1848.1080@72.0.1848.1080" timestamp="1580413894688" />
+    <state width="1827" height="297" key="GridCell.Tab.0.left/72.0.1848.1080@72.0.1848.1080" timestamp="1580413957922" />
+    <state width="1437" height="371" key="GridCell.Tab.0.left/78.0.1458.1024@78.0.1458.1024" timestamp="1580476902572" />
+    <state width="1437" height="371" key="GridCell.Tab.0.right" timestamp="1580476902572">
+      <screen x="78" y="0" width="1458" height="1024" />
+    </state>
+    <state width="1827" height="297" key="GridCell.Tab.0.right/72.0.1848.1080@72.0.1848.1080" timestamp="1580413957922" />
+    <state width="1437" height="371" key="GridCell.Tab.0.right/78.0.1458.1024@78.0.1458.1024" timestamp="1580476902572" />
     <state width="1827" height="363" key="GridCell.Tab.1.bottom" timestamp="1580413609481">
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
@@ -172,5 +200,9 @@
       <screen x="72" y="0" width="1848" height="1080" />
     </state>
     <state x="497" y="183" key="SettingsEditor/72.0.1848.1080@72.0.1848.1080" timestamp="1580411748751" />
+    <state x="502" y="244" width="609" height="536" key="find.popup" timestamp="1580472743050">
+      <screen x="78" y="0" width="1458" height="1024" />
+    </state>
+    <state x="502" y="244" width="609" height="536" key="find.popup/78.0.1458.1024@78.0.1458.1024" timestamp="1580472743050" />
   </component>
 </project>
